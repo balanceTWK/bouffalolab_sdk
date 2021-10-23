@@ -27,7 +27,7 @@ src += ['bl_mcu_sdk/drivers/bl602_driver/hal_drv/src/hal_flash.c']
 src += ['bl_mcu_sdk/drivers/bl602_driver/hal_drv/src/hal_clock.c']
 src += ['bl_mcu_sdk/drivers/bl602_driver/hal_drv/src/hal_mtimer.c']
 
-CPPPATH += [ cwd + '/bl_mcu_sdk/common/misc ']
+CPPPATH += [ cwd + '/bl_mcu_sdk/common/misc']
 CPPPATH += [ cwd + '/bl_mcu_sdk/bsp/bsp_common/platform']
 CPPPATH += [ cwd + '/bl_mcu_sdk/bsp/board/bl602']
 CPPPATH += [ cwd + '/bl_mcu_sdk/drivers/bl602_driver/risc-v/Core/Include']
